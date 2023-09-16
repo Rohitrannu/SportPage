@@ -1,0 +1,160 @@
+
+/* Navbar css*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rounded-2.navbar {
+font-size: large;
+ background-color: aliceblue;
+ transition: .3s ease-in-out;
+}
+
+.Container2 {
+  margin-block: 46px;
+}
+h3 {
+  margin: 2.4rem;
+}
+h4{
+  color: black;
+  
+}
+input {
+  max-width: 50rem;
+  color: wheat;
+  border: 1px solid wheat;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+input[ type="submit"] {
+  color: darkblue;
+  margin-top: 2rem;
+  border-radius: 11px;
+  background-color: black;
+  color: white;
+  margin: 2px;
+  inline-size: 181px;
+}
+
+.icons {
+  color: black;
+  font-size: 2.4rem;
+  position: relative;
+  cursor: pointer;
+}
+.footer-social--icons {
+  display: flex;
+  gap: 2rem;
+  padding-top: 17px;
+  margin-right: 2px;
+}
+.large {
+  font-size: x-large;
+  color: black;
+  margin: revert;
+}
+input[ type="email"] {
+  border-radius: 5px
+}
+.plac {
+  margin: 12px;
+  padding: 7px;
+}
+.form-sub{
+  margin-inline: -19px;
+  margin-top: 11px;
+}
+.subscribe{
+  border-radius: 10px;
+  
+  width: 113px;
+  padding: 2px;
+  color: white;
+  background-color: #0d6efd;
+}
+.callus {
+  padding: 2px;
+  margin: 10px 15px;
+  padding-top: 18px;
+  margin-left: 2px;
+}
+.hr {
+  margin-bottom: 2rem;
+  height: 0.1px;
+}
+.bottom {
+  padding-top: 9rem;
+}
+.title {
+  text-align: center;
+  font-size: xx-large;
+  margin: auto;
+}
+.row1st{
+  background-color:aliceblue;
+  margin: auto;
+  padding: 16px;
+}
+.row2nd{
+  background: #1c1c1c;
+}
+.Text{
+  color: black ;
+}
+.slider_text{
+  margin: 2vw;
+  color: #fff;
+  width: 50vw;
+  text-align: center;
+  
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+
+  }
+.Container2{
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 3px;
+}
+.plac{
+  margin-top: 10vw;
+  width: 80%;
+}
+.sameClassFooter{
+  text-align: center;
+}
+.subscribe{
+  margin-inline-start: 36px;
+}
+.icon-phone{
+  display: none;
+}
+.Container2{
+  padding: 45px;
+  margin-left: 34px;
+}
+.img-army{
+  margin-bottom: 2vw;
+  transform: translateY(-140px);
+}
+.img-army2nd{
+  margin-left: 5vw;
+}
+.common-section{
+margin-left: 4.3vw;
+}
+.navbar {
+display: none;
+color: #0d6efd;
+}
+
+
+}
+
+

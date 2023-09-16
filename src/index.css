@@ -1,0 +1,222 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bgcolor: #f1f5fd;
+  --primary-color: #6f5de7;
+  --text-color: #828286;
+  --main-text-color: #333333;
+}
+
+html {
+  font-size: 80.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+}
+.contactus-section {
+  margin: 8rem 0;
+}
+
+
+.contact-leftside img {
+  min-width: 80%;
+  max-height: 30rem;
+  height: auto;
+}
+
+.contact-input-feild {
+  margin-bottom: 4rem;
+}
+
+.contact-rightside form .form-control {
+  border: 1px solid #ced4da;
+  --webkit-appearance: none;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.contact-rightside form .form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-checkbox-style {
+  margin: 4rem 0;
+}
+#submit-btn{
+  background: rgb(23,124,229);
+    padding: 17px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.contact-rightside form .main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+
+
+
+
+.common-section {
+  margin: 5rem 0;
+}
+
+.our-services img {
+  width: 80%;
+  height: 80%;
+  margin-top: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
+}
+
+.our-services .mini-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 3rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.our-services .main-heading {
+  font-weight: bolder;
+}
+
+.our-services-info {
+  margin-top: 4rem;
+}
+
+.our-services .our-services-number {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1rem solid var(--primary-color);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+
+.our-services-data {
+  padding-left: 2rem;
+}
+
+.our-services .our-services-data p {
+  margin: 1rem 0;
+}
+
+/* 2nd section of about us  */
+
+.our-services-rightside {
+  margin-top: 10rem;
+}
+
+.our-services-rightside-content {
+  padding-left: 8rem;
+}
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  
+}
+
+
+/*card css*/
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+  background-color: transparent;
+  perspective: 1000px;
+}
+.img-round {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card:hover .img-round {
+  transform: rotateY(180deg);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+.cards__item__link{
+  width: 200px;
+
+}
+.cards__item__link:hover:not([disabled]){
+  background-color: black;
+
+}
+.btn-about{
+  background-color: rgb(23,124,229);
+  padding: 14px;
+  width: 149px;
+  font-weight: 300;
+  font-size: large;
+  border-radius: 47px;
+  box-shadow: 0 6px 20px rgba(163, 182, 56, 0.17);
+}
+
+
+  @media (max-width: 600px) {
+    .contact-input-feild{
+font-weight: 600;
+
+
+    }
+    .card{
+      margin: 15px 10px;
+    }
+.dark-textmy{
+  font-weight: 600;
+ text-align: in;
+}
+.contact-rightside form .main-hero-para{
+  font-size: inherit;
+  width: 86vw;
+  margin-bottom: 4vw;
+}
+.contact-rightside form .form-check-input{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.quote-box blockquote {
+  font-style: italic;
+ 
+  text-align: left;
+}
+  }
+  
